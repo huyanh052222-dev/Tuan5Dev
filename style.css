@@ -59,8 +59,9 @@ nav{
     margin: 15px;
 }
 .main_header{
-            display: flex;
-            justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
 }
 .main_header_item{
     align-content: center;
@@ -70,6 +71,8 @@ nav{
     padding: 0px 20px;
     width: 50%;
     letter-spacing:8px;
+    margin: 10px;
+    height: 40px;
 }
 .textsideleft{
     background-color: #ea9696;
