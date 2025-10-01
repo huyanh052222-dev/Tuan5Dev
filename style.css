@@ -11,6 +11,12 @@ header{
     gap: 50px;
     background-color: #ea9696;
 }
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+/* Chieu cao cua moi nav */
 .hei{
     height: 30px;
 }
@@ -30,34 +36,41 @@ header{
     right: -20px;
     position: absolute;
 }
-#div2{
-    display: flex;
-}
+
 .mainbox{
     width: 50%;
     background-color: rgb(255, 255, 255);
-    order: 1;
-    /* height: 500px; */
     margin-left: 10px ;
 }
-.side1{
+.sideleft{
     width: 20%;
     height: 300px;
     background-color: rgb(255, 255, 255);
-    order: 0;
     gap: 5px;
     z-index: 10;
 
 }
-.side2{
+.sideright{
     width: 30%;
     height: 750px;
     background-color: rgb(255, 255, 255);
-    order: 2;
-
+    background-color: black;
+    color: white;
+    margin: 15px;
 }
-
-.pa{
+.main_header{
+            display: flex;
+            justify-content: center;
+}
+.mainbox_header_item{
+            align-content: center;
+            background-color: #ea9696;
+            color: #a12e31;
+            font-weight: 1000;
+            padding: 0px 20px;
+            width: 50%;
+}
+.textsideleft{
     background-color: #ea9696;
     height: 30px;
     border-radius: 20px;
@@ -85,17 +98,19 @@ header{
     display: grid;
     grid-template-columns: 100%;
 }
-.nutbam{
-    margin-top: 15px;
-}
+/* margin-top: 15px; */
+
 .nut{
     height: 30px;
 }
-.side2{
-    background-color: black;
-    color: white;
+.mainright{
     margin: 15px;
 }
-.mainside2{
-    margin: 15px;
+footer{
+    margin-top: 20px;
+    background-color: #ea9696;
+    color: white;
+    align-content: center;
+    display: flex;
+    justify-content: center;
 }
