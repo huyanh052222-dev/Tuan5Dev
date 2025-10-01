@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #div1{
+            display: flex;
+            justify-content: center;
+            color: #a12e31;
+            text-shadow: 5px 7px 0px rgba(210, 13, 13, 0.304);
+        }
+        #imgside1{
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 10px 15px 10px rgba(234, 150, 150, 0.4);
+        }
+        #main_header{
+            display: flex;
+            justify-content: center;
+        }
+        #mainbox_header_item{
+            align-content: center;
+            background-color: #ea9696;
+            color: #a12e31;
+            font-weight: 1000;
+            padding: 0px 20px;
+            width: 50%;
+        }
+        .picside2{
+            width: 80%;
+        }
+        .readmore{
+            color: #ea9696;
+        }
+        #div3{
+            margin-top: 20px;
+            background-color: #ea9696;
+            color: white;
+            align-content: center;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1><em>EXAMPLE CAFE MENU</em></h1>
+    </div>
+    <header>
+        <section class="header_item"><img src="icons8-home-50.png" alt="Home" style="width: 30px; height: 50;"></section>
+        <section class="header_item hei">STARTER</section>
+        <section class="header_item hei">MAIN COURSES</section>
+        <section class="header_item hei">DESSERTS</section>
+        <section class="hei" style="align-content: center;"><input type="text"><button style="margin-left: 10px;">Go</button></section>
+    </header>
+    <div id="div2">
+        <section class="mainbox">
+            <section class="main1">
+                <div id="main_header">
+                    <h1 id="mainbox_header_item">S t a r t e r</h1>
+
+                </div>
+                <ul>
+                    <li>Chestnnut and Mushroom Goujons <u style="color: red;">(v)</u></li>
+                    <li>Goat Cheese <u style="color: red;">(v)</u></li>
+                    <li style="color: orange; font-weight: 700;">HONEY SOY CHICKEN KEABABS <u style="color: red;">(v)</u></li>
+                    <li>Seadfood Salad <u style="color: red;">(v)</u></li>
+                </ul>
+                <a href="" style="color: red;">Back to top</a>
+            </section>
+            <section class="main2">
+                <div id="main_header">
+                    <h1 id="mainbox_header_item">D e s s e r t s</h1>
+
+                </div>
+                <ul>
+                    <li>Lemon Sorbet <u style="color: red;">(v)</u></li>
+                    <li>Chocolate Mud Pie <u style="color: red;">(v)</u></li>
+                    <li>Peacan Pie <u style="color: red;">(v)</u></li>
+                    <li>Selection of the fine Cheese from Around the World <u style="color: red;">(v)</u></li>
+                </ul>
+                <a href="" style="color: red;">Back to top</a>
+            </section>            
+            <section class="main3">
+                <div id="main_header">
+                    <h1 id="mainbox_header_item">I N F O R M A T I O N</h1>
+                </div>
+                <div class="khung">
+                    <input placeholder="First name" class="inputkhung" type="text">
+                    <input placeholder="Last name" class="inputkhung" type="text">
+                    <input placeholder="Email" class="inputkhung" type="text">
+                    <input placeholder="Telephone" class="inputkhung" type="text">
+                    <select name="Nation" id="selection">
+                        <option value="">USA</option>
+                        <option value="">VietNam</option>
+                        <option value="">Russia</option>
+                    </select>
+                    <div class="rad">
+                        <input type="radio"> Vietnamese
+                        <input type="radio"> Foreigner
+                    </div>
+                </div>
+                <div class="cmt">
+                    <textarea name="" id="cmtbox" style="height: 70px;" placeholder="Comment"></textarea>
+                </div>
+                <section class="nutbam">
+                    <button class="nut">Submit</button>
+                    <button class="nut">Cancel</button>
+                </section>
+            </section>
+        </section>
+        <section class="side1">
+            <section id="textsec">
+                <p class="pa">Cafe Latte</p>
+                <p class="pa">Capuchino</p>
+                <p class="pa">Ocean Blue</p>
+                <p class="pa">Ice-cream Cafe</p>
+                <p class="pa">Order Online</p>
+            </section>
+            <section><img id="imgside1" src="company.png" alt="company"></section>
+        </section>
+        <section class="side2">
+            <div class="mainside2">
+                <h2>Event</h2>
+                <div class="imgside2">
+                    <h3>Regular Meetings</h3>
+                    <img class="picside2" src="meeting.png" alt="">
+                    <p>Host your regular team meetings or activities in the comfort of your own private room.
+                        <a class="readmore" href="">Read more...</a>
+                    </p>
+                    <h3>Product Launches</h3>
+                    <img class="picside2" src="launch.png" alt="">
+                    <p>Launch your product with case in a space that truly fits its image.
+                        <a class="readmore" href="">Read more...</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="div3">
+        <footer>
+            <h1>ABC Company © - 12345678 - abcdeffee@gmail.com</h1>
+        </footer>
+    </div>
+</body>
+</html>
