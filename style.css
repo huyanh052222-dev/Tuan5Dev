@@ -62,13 +62,14 @@ nav{
             display: flex;
             justify-content: center;
 }
-.mainbox_header_item{
-            align-content: center;
-            background-color: #ea9696;
-            color: #a12e31;
-            font-weight: 1000;
-            padding: 0px 20px;
-            width: 50%;
+.main_header_item{
+    align-content: center;
+    background-color: #ea9696;
+    color: #a12e31;
+    font-weight: 1000;
+    padding: 0px 20px;
+    width: 50%;
+    letter-spacing:8px;
 }
 .textsideleft{
     background-color: #ea9696;
@@ -115,4 +116,3 @@ footer{
     display: flex;
     justify-content: center;
 }
-
