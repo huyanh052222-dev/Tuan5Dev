@@ -40,7 +40,7 @@ nav{
 .mainbox{
     width: 50%;
     background-color: rgb(255, 255, 255);
-    margin-left: 10px ;
+    margin: 10px ;
 }
 .sideleft{
     width: 20%;
@@ -119,3 +119,4 @@ footer{
     display: flex;
     justify-content: center;
 }
+
